@@ -12,7 +12,7 @@ public class ChangeFinder {
         }
         Double centsD = dollars*100;
         System.out.println(centsD);
-        long cents = Math.round(centsD);  // drops extraneous precision, would round up if more time
+        long cents = Math.round(centsD);
         Change change = new Change();
         System.out.println(cents);
         change.quarters = cents / 25;
