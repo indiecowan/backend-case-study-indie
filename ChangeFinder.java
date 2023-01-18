@@ -1,4 +1,5 @@
 import java.lang.Error;
+import java.lang.Math;
 
 public class ChangeFinder {
 
@@ -10,21 +11,27 @@ public class ChangeFinder {
             throw e;
         }
         Double centsD = dollars*100;
-        int cents = centsD.intValue();  // drops extraneous precision, would round up if more time
+        System.out.println(centsD);
+        long cents = Math.round(centsD);  // drops extraneous precision, would round up if more time
         Change change = new Change();
+        System.out.println(cents);
         change.quarters = cents / 25;
         cents -= change.quarters * 25;
+        System.out.println(cents);
         change.dimes = cents / 10;
         cents -= change.dimes * 10;
+        System.out.println(cents);
         change.nickels = cents / 5;
         cents -= change.nickels * 5;
+        System.out.println(cents);
         change.pennies = cents;
+        System.out.println(cents);
         return change;
     }
 
     public static void main(String[] args) {
         System.out.println("TEST 1: sanity");
-        double testNum = 1.43;
+        double testNum = 2.32;
         Change output = calculateChange(testNum);
         System.out.println("test input: " + Double.toString(testNum));
         output.printChange();

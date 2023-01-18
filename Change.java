@@ -1,57 +1,57 @@
 public class Change {
-    int quarters;
-    int dimes;
-    int nickels;
-    int pennies;
+    long quarters;
+    long dimes;
+    long nickels;
+    long pennies;
 
     // would allow for various inputs if more time
     public Change() {
 
     }
 
-    public Change(int quarters, int dimes, int nickels, int pennies) {
+    public Change(long quarters, long dimes, long nickels, long pennies) {
         this.quarters = quarters;
         this.dimes = dimes;
         this.nickels = nickels;
         this.pennies = pennies;
     }
 
-    public int getQuarters() {
+    public long getQuarters() {
         return quarters;
     }
 
-    public int getDimes() {
+    public long getDimes() {
         return dimes;
     }
 
-    public int getNickels() {
+    public long getNickels() {
         return nickels;
     }
 
-    public int getPennies() {
+    public long getPennies() {
         return pennies;
     }
 
-    public void setQuarters(int quarters) {
+    public void setQuarters(long quarters) {
         this.quarters = quarters;
     }
 
-    public void setDimes(int dimes) {
+    public void setDimes(long dimes) {
         this.dimes = dimes;
     }
 
-    public void setNickels(int nickels) {
+    public void setNickels(long nickels) {
         this.nickels = nickels;
     }
 
-    public void setPennies(int pennies) {
+    public void setPennies(long pennies) {
         this.pennies = pennies;
     }
 
     public void printChange(){
-        System.out.println("Quarters: " + Integer.toString(quarters));
-        System.out.println("Dimes: " + Integer.toString(dimes));
-        System.out.println("Nickels: " + Integer.toString(nickels));
-        System.out.println("Pennies: " + Integer.toString(pennies));
+        System.out.println("Quarters: " + Long.toString(quarters));
+        System.out.println("Dimes: " + Long.toString(dimes));
+        System.out.println("Nickels: " + Long.toString(nickels));
+        System.out.println("Pennies: " + Long.toString(pennies));
     }
 }
