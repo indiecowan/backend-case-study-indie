@@ -14,8 +14,8 @@ The following coins are allowed - dollar coin, quarter, dime, nickel, and penny.
 When you’re satisfied with your solution, provide a link to a repository and instructions to build and run the code. Try to timebox the work to approximately 60 minutes.
 
 *******
-Started at 6pm 1/17/23 ended 7pm 1/17/23 PCT.\n
-DIRECTIONS TO RUN:\n
+Started at 6pm 1/17/23 ended 7pm 1/17/23 PCT.
+DIRECTIONS TO RUN:
 To run through command line download all java files and run ComLineChange with 1 command line argument, money (in double format). You may also run the tests I was doing by running ChangeFinder.
 
 Thank you so much for this opportunity! I look forward to talking further :)
