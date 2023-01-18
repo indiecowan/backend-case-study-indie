@@ -47,4 +47,11 @@ public class Change {
     public void setPennies(int pennies) {
         this.pennies = pennies;
     }
+
+    public void printChange(){
+        System.out.println("Quarters: " + Integer.toString(quarters));
+        System.out.println("Dimes: " + Integer.toString(dimes));
+        System.out.println("Nickels: " + Integer.toString(nickels));
+        System.out.println("Pennies: " + Integer.toString(pennies));
+    }
 }
