@@ -16,7 +16,7 @@ When you’re satisfied with your solution, provide a link to a repository and i
 *******
 Started at 6pm 1/17/23 ended 7pm 1/17/23 PCT.
 DIRECTIONS TO RUN:
-To run through command line download all java files and from a folder they are all in together run ComLineChange with 1 command line argument, money (in double format). You may also run the tests I was doing by running ChangeFinder.
+To run through command line download all java files and from a folder they are all in together, compile all files, then run ComLineChange with 1 command line argument, money (in double format). You may also run the tests I was doing by running ChangeFinder.
 
 Thank you so much for this opportunity! I look forward to talking further :)
 -Indie
